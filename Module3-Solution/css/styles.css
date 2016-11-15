@@ -1,0 +1,40 @@
+
+#menu-content{
+	background-color: lightblue;
+	margin: 10px 20px 20px 20px;
+	padding: 0 20px;
+	height: 500px;
+	border-style: solid;
+}
+
+#header-nav{
+	background-color: #1976D2;
+	color: white;
+}
+
+.navbar-brand > h1{
+	margin: 0px;
+	color: white;
+}
+
+#nav-list > li{
+	text-align: center;
+}
+
+#nav-list {
+  margin-top: 2px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: lightgreen;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+hr{
+	margin:0;
+}
