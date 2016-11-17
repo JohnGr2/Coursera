@@ -1,10 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: lightblue;
+}
 
 #menu-content{
-	background-color: lightblue;
 	margin: 10px 20px 20px 20px;
 	padding: 0 20px;
-	height: 500px;
-	border-style: solid;
+	
+}
+
+.col-md-4, .col-sm-6, .col-xs-12  {
+	float: left;
+}
+
+.box {
+    padding: 0 7px 0 7px;
+    box-sizing: border-box;
+}
+.box .inner {
+    background-color: lightgreen;
+}
+
+p{
+	padding: 25px;
+	height: 1200px;
+	
 }
 
 #header-nav{
